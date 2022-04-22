@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser');
 const { swaggerUi, specs } = require('./swagger');
 
 const app = express();
-const port = 4000;
+const port = 8080;
 
 const userRouter = require('./routes/user');
 const contentsRouter = require('./routes/contents');
